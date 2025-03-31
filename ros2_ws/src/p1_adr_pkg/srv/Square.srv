@@ -1,3 +1,0 @@
-float64 x           # Input: number
----
-float64 x_squared   # Output: square of the number
