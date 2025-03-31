@@ -17,11 +17,12 @@ setup(
     maintainer_email='josloprui6@alum.us.es',
     description='Paquete para la práctica 1 de Ampliación de Robótica',
     license='TODO: License declaration',
-    tests_require=['pytest'],
     entry_points={
         'console_scripts': [
             'gps_publisher = p1_adr_pkg.gps_publisher:main',
-            'gps_subscriber = p1_adr_pkg.gps_subscriber:main'
+            'gps_subscriber = p1_adr_pkg.gps_subscriber:main',
+            'square_server = p1_adr_pkg.square_server:main',
+            'square_client = p1_adr_pkg.square_client:main'
         ],
     },
 )
